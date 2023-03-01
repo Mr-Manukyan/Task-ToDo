@@ -1,0 +1,35 @@
+.container {
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgba(139, 139, 139, 0.507);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    background-color:rgba(19, 19, 19, 0.774);
+    position: relative;
+}
+
+
+.toDoEmptyBox{
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.todoEmptyText1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.todoEmptyText2 {
+    color: rgba(204, 204, 204, 0.623);
+    font-size: 20px;
+}
+

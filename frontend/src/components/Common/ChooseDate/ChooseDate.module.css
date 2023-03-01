@@ -1,0 +1,29 @@
+.calendarIconWrapper {
+    width: 100%;
+    border-bottom: 2px solid #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendarIconBody {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.paragraph{
+    color: #d3d3d3;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateInfo {
+    color: rgba(255, 251, 0, 0.61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calendarIcon {
+    max-width: 100%;
+}
